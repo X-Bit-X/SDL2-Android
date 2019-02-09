@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f5459b0b-55c9-4c1c-a5b4-fd0ad43d2ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{46f22653-e5c7-401c-a142-8dbfbbfd5628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\native_midi">
+      <UniqueIdentifier>{c8b9d1a8-971f-4abc-b2a1-0433889f0211}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\effect_position.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect_stereoreverse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effects_internal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\load_aiff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\load_voc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mixer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_cmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_flac.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_fluidsynth.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_mad.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_mikmod.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_modplug.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_mpg123.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_nativemidi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_ogg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_opus.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_timidity.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_wav.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\effects_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\load_aiff.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\load_voc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mixer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_cmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_flac.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_fluidsynth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_mad.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_mikmod.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_modplug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_mpg123.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_nativemidi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_ogg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_opus.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_timidity.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\music_wav.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\native_midi\native_midi.h">
+      <Filter>include\native_midi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
