@@ -18,7 +18,7 @@ public:
 	{
 		m_i.loadFromFile("e.png");
 		m_m.loadFromWAV("Tetris song.wav");
-		m_t.font().loadFont("lazy.ttf", 20);
+		m_t.font().loadFont("lazy.ttf", 50);
 
 		m_m.play(-1);
 		m_m.volume(128);

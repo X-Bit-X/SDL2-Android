@@ -273,7 +273,7 @@
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)SDL2_image\include;$(SolutionDir)SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LOAD_BMP;LOAD_GIF;LOAD_LBM;LOAD_PCX;LOAD_PNM;LOAD_SVG;LOAD_TGA;LOAD_XCF;LOAD_XPM;LOAD_XV;LOAD_JPG;LOAD_PNG;omit-frame-pointer;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>m;z;%(LibraryDependencies)</LibraryDependencies>
@@ -286,7 +286,7 @@
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)SDL2_image\include;$(SolutionDir)SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LOAD_BMP;LOAD_GIF;LOAD_LBM;LOAD_PCX;LOAD_PNM;LOAD_SVG;LOAD_TGA;LOAD_XCF;LOAD_XPM;LOAD_XV;LOAD_JPG;LOAD_PNG;omit-frame-pointer;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>m;z;%(LibraryDependencies)</LibraryDependencies>
